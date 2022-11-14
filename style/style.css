@@ -42,8 +42,62 @@ body {
 
 /* procuts */
 /* krossi */
-
-
+.nike__items {
+    padding-top: 31px;
+    display: flex;
+    column-gap: 32px;
+    justify-content: center;
+}
+.nike__item {
+    width: 328px;
+    background: #FFFFFF;
+    height: 435px;
+}
+.nike__item-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 18px;
+    padding-top: 15px;
+    padding-left: 10px;
+    color: #000000;
+}
+.nike__item-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #6A6A6A;
+    width: 300px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.item__bottom-link {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #050505;
+    text-transform: uppercase;
+    background: #DFC900;
+    padding: 10px 85px;
+    border-radius: 3px;
+    margin-left: 15px;
+    margin-top: 15px;
+    transition: 0.5s;
+}
+.item__bottom{
+    padding-top: 10px;
+}
+.item__bottom-price{
+    padding-left: 32px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+.item__bottom-link:hover {
+    background: #000000;
+    color: #DFC900;
+}
 
 
 /* krossi */
