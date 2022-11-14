@@ -21,9 +21,40 @@ body {
 }
 
 /* nav */
+.header__nav{
+    background: #322E41;
+}
+.header__con-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header__nav-list{
+    display: flex;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    gap: 30px;
+}
+.header__nav-link{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 21px;
+}
+.header__nav-link:hover {
+    border-bottom: 2px solid white;
+}
+.logo{
+    padding: 14px 0;
+}
+.header__nav-link:hover{
+    color: #FFE600;
+}
 
-
-
+.header__nav-list{
+  
+}
 
 /* nav */
 /* header content */
